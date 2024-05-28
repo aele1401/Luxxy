@@ -10,7 +10,7 @@ This project provides an automated solution for deploying a COVID health result 
 - Integration with multiple cloud providers (AWS & Google Cloud)
 
 ## Architecture
-![Diagram](https://github.com/aele1401/Cloud/blob/master/Multicloud/Images/solution_architecture.png)
+![Diagram](https://github.com/aele1401/Luxxy/blob/main/Images/solution_architecture.png)
 
 ## Getting Started
 
@@ -36,7 +36,7 @@ This project is a migration and deployment of a COVID testing system using infra
     * Review details
     * Create new user
 
-![Diagram](https://github.com/aele1401/Cloud/blob/master/Multicloud/Images/users.png)
+![Diagram](https://github.com/aele1401/Luxxy/blob/main/Images/users.png)
 
 - Obtain and download access key for created user and mission1 files
 - **GCP Console:**
@@ -70,9 +70,9 @@ This project is a migration and deployment of a COVID testing system using infra
             * *"Network: 0.0.0.0/0"*
                - *Note: This configuration is set to allow anybody to connect through the web. In a real-word environment, this is not recommended. In production environments, it is strongly recommended to only use private network for database access.*
 
-![Diagram](https://github.com/aele1401/Cloud/blob/master/Multicloud/Images/creation_complete.png)
+![Diagram](https://github.com/aele1401/Luxxy/blob/main/Images/creation_complete.png)
 
-![Diagram](https://github.com/aele1401/Cloud/blob/master/Multicloud/Images/bucket.png)
+![Diagram](https://github.com/aele1401/Luxxy/blob/main/Images/bucket.png)
 
 
 ## Mission #2: IAM & Cluster Deployment
@@ -86,7 +86,7 @@ This project is a migration and deployment of a COVID testing system using infra
         - Go to *"Access Keys"* section
         - Download access keys
 
-![Diagram](https://github.com/aele1401/Cloud/blob/master/Multicloud/Images/users.png)
+![Diagram](https://github.com/aele1401/Luxxy/blob/main/Images/users.png)
 
 - **GCP:**
     * Navigate to *"Cloud SQL"* instance and create new user
@@ -99,7 +99,7 @@ This project is a migration and deployment of a COVID testing system using infra
         - `source ~/mission2_en/mission2/en/db/create_table.sql;`
         - `show tables;`
         - `exit;`
-    ![Diagram](https://github.com/aele1401/Cloud/blob/master/Multicloud/Images/sql_instance.png)
+    ![Diagram](https://github.com/aele1401/Luxxy/blob/main/Images/sql_instance.png)
     * Enable Cloud Build API via Cloud Shell
         - `gcloud services enable cloudbuild.googleapis.com`
     * Build Docker image and push it to Google Container Registry. Replace *PROJECT ID*.
@@ -109,13 +109,13 @@ This project is a migration and deployment of a COVID testing system using infra
     * Connect to GKE cluster shell and deploy infrastructure
         - `kubectl apply -f luxxy-covid-testing-system.yaml`
 
-![Diagram](https://github.com/aele1401/Cloud/blob/master/Multicloud/Images/clusters.png)
+![Diagram](https://github.com/aele1401/Luxxy/blob/main/Images/clusters.png)
 
-![Diagram](https://github.com/aele1401/Cloud/blob/master/Multicloud/Images/workloads.png)
+![Diagram](https://github.com/aele1401/Luxxy/blob/main/Images/workloads.png)
 
-![Diagram](https://github.com/aele1401/Cloud/blob/master/Multicloud/Images/service_ingress.png)
+![Diagram](https://github.com/aele1401/Luxxy/blob/main/Images/service_ingress.png)
 
-![Diagram](https://github.com/aele1401/Cloud/blob/master/Multicloud/Images/luxxy_system.png)
+![Diagram](https://github.com/aele1401/Luxxy/blob/main/Images/luxxy_system.png)
 
 ## Mission #3: Data Migration
 
@@ -145,9 +145,9 @@ This project is a migration and deployment of a COVID testing system using infra
 
 ### Successful Deployment of Luxxy COVID-19 Testing System Result
 
-![Diagram](https://github.com/aele1401/Cloud/blob/master/Multicloud/Images/luxxy_system.png)
+![Diagram](https://github.com/aele1401/Luxxy/blob/main/Images/luxxy_system.png)
 
-![Diagram](https://github.com/aele1401/Cloud/blob/master/Multicloud/Images/get_results.png)
+![Diagram](https://github.com/aele1401/Luxxy/blob/main/Images/get_results.png)
 
 After application testing is complete and successful deployment of system, empty S3 buckets and use terraform destroy to terminate managed resources.
 
