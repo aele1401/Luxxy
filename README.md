@@ -19,6 +19,7 @@ This project provides an automated solution for deploying a COVID health result 
 - Terraform
 - Kubernetes
 - Cloud Shell
+- Mission Files
 
 ## Usage & Deployment
 
