@@ -23,8 +23,6 @@ This project provides an automated solution for deploying a COVID health result 
 
 ## Usage & Deployment
 
-### Luxxy COVID-19 Testing System
-
 - Mission #1 - Setup and configuration of cloud instances
 - Mission #2 - IAM and cluster deployment
 - Mission #3 - Data migration
