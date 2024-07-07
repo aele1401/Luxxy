@@ -27,7 +27,7 @@ This project provides an automated solution for deploying a COVID health result 
 - Mission #2 - IAM and cluster deployment
 - Mission #3 - Data migration
 
-## Mission #1 - Getting Started
+## Mission #1 - Setup & Configuration of Cloud Instances
 
 - Access AWS console and create a new programmatic user *"terraform-en-1"* 
     * Set permissions
@@ -92,7 +92,7 @@ This project provides an automated solution for deploying a COVID health result 
     * Download and unzip Mission2 files
     * Connect to DB running on Cloud SQL using user and password just created
         - `mysql --host=<public_ip_cloudsql> --port=3306 -u app -p`
-    * After logged into DB, create products table for testing purposes
+    * After logging into DB, create products table for testing purposes
         - `use dbcovidtesting;`
         - `source ~/mission2_en/mission2/en/db/create_table.sql;`
         - `show tables;`
