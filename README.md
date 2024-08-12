@@ -6,7 +6,7 @@ This project provides an automated solution for deploying a COVID health result 
 ## Features
 - Automated multi-cloud deployment
 - Scalable architecture
-- Secure handling of health data
+- Secure handling of health data (PHI)
 - Integration with multiple cloud providers (AWS & Google Cloud)
 
 ## AWS & Google Cloud Architecture
