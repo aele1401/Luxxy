@@ -163,8 +163,6 @@ After application testing is complete and successful deployment of system, empty
     * `terraform destroy`
         - *`yes`*
    
- # 
- ## *Special thanks to Jean Rodrigues and The Cloud Bootcamp*
     
 
 
