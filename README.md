@@ -10,7 +10,8 @@ This project provides an automated solution for deploying a COVID health result 
 - Integration with multiple cloud providers (AWS & Google Cloud)
 
 ## AWS & Google Cloud Architecture
-- This project automates the migration of data from an on-premise solution to the cloud in AWS and Google Cloud
+- This project automates the migration of data from an on-premise solution to the cloud in AWS and GCP with the architecture depicted:
+
 ![Diagram](https://github.com/aele1401/Luxxy/blob/main/Images/solution_architecture.png)
 
 ## Getting Started
