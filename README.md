@@ -1,7 +1,7 @@
 # Luxxy
 
 ## Description
-This project provides an automated solution for deploying a COVID health result testing system using infrastructure as code to manage, migrate, and provision resources from multiple cloud providers using sample health data. It facilitates scalable and resilient processing and storage of health data using infrastructure as code to create and provision S3 buckets, SQL cloud instances, clusters, and kubernetes to deploy the infrastructure.
+This project provides an automated solution for migrating and deploying a COVID health result testing system using infrastructure as code to manage, migrate, and provision resources from multiple cloud providers using sample health data. It facilitates scalable and resilient processing and storage of health data using infrastructure as code to create and provision S3 buckets, SQL cloud instances, clusters, and kubernetes to deploy the infrastructure.
 
 ## Features
 - Automated multi-cloud deployment
@@ -10,6 +10,7 @@ This project provides an automated solution for deploying a COVID health result 
 - Integration with multiple cloud providers (AWS & Google Cloud)
 
 ## AWS & Google Cloud Architecture
+- This project automates the migration of data from an on-premise solution to the cloud in AWS and Google Cloud
 ![Diagram](https://github.com/aele1401/Luxxy/blob/main/Images/solution_architecture.png)
 
 ## Getting Started
